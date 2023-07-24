@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\PalindromeRequest;
+use App\Http\Services\PalindromeService;
 
 final class PalindromeController extends Controller
 {
@@ -16,8 +17,6 @@ final class PalindromeController extends Controller
 
     $palindromeService->setData($palindromeInput)->run();
 
-    return [
-      "Is Palindrome" => $palindromeService->getDataToResponse()
-    ];
+    return $palindromeService->getDataToResponse();
   }
 }

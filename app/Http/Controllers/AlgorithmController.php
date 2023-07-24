@@ -17,8 +17,6 @@ final class AlgorithmController extends Controller
 
     $factorialService->setData($factorialInput)->run();
 
-    return [
-      "Factorial result" => $factorialService->getDataToResponse()
-    ];
+    return $factorialService->getDataToResponse();
   }
 }
