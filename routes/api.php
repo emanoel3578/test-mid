@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\AlgorithmController;
+use App\Http\Controllers\PalindromeController;
+use App\Http\Controllers\RecursionController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,3 +17,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('factorial', [AlgorithmController::class, 'calculateFactorial']);
+Route::get('palindrome', [PalindromeController::class, 'checkIfIsPalindrome']);
+Route::get('recursion', [RecursionController::class, 'calculateFibonacci']);
