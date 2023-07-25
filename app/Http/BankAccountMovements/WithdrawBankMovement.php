@@ -12,7 +12,7 @@ final class WithdrawBankMovement extends BaseBankMovement implements IBankMoveme
 
   public function applyMovementation(IBankAccount $bankAccount): float
   {
-    $withdrawedBalance = $bankAccount->balance() - $this->amount;
+    $withdrawedBalance = $bankAccount->getBalance() - $this->amount;
 
     if ($withdrawedBalance < 0) {
       throw new WithdrawIsBiggerThanBalanceException;

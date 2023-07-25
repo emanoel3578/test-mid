@@ -11,7 +11,7 @@ final class DepositBankMovement extends BaseBankMovement implements IBankMovemen
 
   public function applyMovementation(IBankAccount $bankAccount): float
   {
-    return $bankAccount->balance() + $this->amount;
+    return $bankAccount->getBalance() + $this->amount;
   }
 
   public function getMovementInfo(): string
