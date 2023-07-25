@@ -2,7 +2,7 @@
 
 namespace Tests;
 
-use App\Exceptions\StackIsEmptyException;
+use App\Exceptions\Stack\StackIsEmptyException;
 use App\Stack\StackExample;
 
 class StackExampleTest extends TestCase

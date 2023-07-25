@@ -2,7 +2,7 @@
 
 namespace App\Stack;
 
-use App\Exceptions\StackIsEmptyException;
+use App\Exceptions\Stack\StackIsEmptyException;
 
 final class StackExample
 {
