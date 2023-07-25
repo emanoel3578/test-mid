@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Unit;
+namespace Tests\Unit\Fibonacci;
 
 use App\Http\Services\FibonacciService;
 use Tests\TestCase;

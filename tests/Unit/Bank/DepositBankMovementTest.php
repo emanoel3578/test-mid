@@ -1,10 +1,11 @@
 <?php
 
-namespace Tests;
+namespace Tests\Unit\Bank;
 
 use App\Http\Bank\CheckingAccount;
 use App\Http\Bank\SavingsAccount;
 use App\Http\BankAccountMovements\DepositBankMovement;
+use Tests\TestCase;
 
 class DepositBankMovementTest extends TestCase
 {

@@ -1,11 +1,12 @@
 <?php
 
-namespace Tests;
+namespace Tests\Unit\Bank;
 
 use App\Exceptions\Bank\WithdrawIsBiggerThanBalanceException;
 use App\Http\Bank\CheckingAccount;
 use App\Http\Bank\SavingsAccount;
 use App\Http\BankAccountMovements\WithdrawBankMovement;
+use Tests\TestCase;
 
 class WithdrawBankMovementTest extends TestCase
 {

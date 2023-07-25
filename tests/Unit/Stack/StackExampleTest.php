@@ -1,9 +1,10 @@
 <?php
 
-namespace Tests;
+namespace Tests\Unit\Stack;
 
 use App\Exceptions\Stack\StackIsEmptyException;
 use App\Stack\StackExample;
+use Tests\TestCase;
 
 class StackExampleTest extends TestCase
 {

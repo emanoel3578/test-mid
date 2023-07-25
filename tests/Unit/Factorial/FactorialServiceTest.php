@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Unit;
+namespace Tests\Unit\Factorial;
 
 use App\Http\Services\FactorialService;
 use Tests\TestCase;

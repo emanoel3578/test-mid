@@ -17,6 +17,6 @@ class CountWordsController extends Controller
 
     $countWordsService->run();
 
-    return $countWordsService->getDataToResponse();
+    return response()->json($countWordsService->getDataToResponse());
   }
 }
