@@ -20,4 +20,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('factorial', [AlgorithmController::class, 'calculateFactorial']);
 Route::get('palindrome', [PalindromeController::class, 'checkIfIsPalindrome']);
 Route::get('recursion', [RecursionController::class, 'calculateFibonacci']);
-Route::post('countWords', [CountWordsController::class, 'countWords']);
+Route::post('count-words', [CountWordsController::class, 'countWords']);
