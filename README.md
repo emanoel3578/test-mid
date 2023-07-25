@@ -2,8 +2,10 @@
 ### Steps for running the application
 1. Copy repository
 2. Copy the file .env.example and rename the new one to .env
-3. run php artisan key:generate on your system terminal at the root of the project
-4. run composer install on your system terminal at the root of the project (requires php and composer installed)
+3. run `php artisan key:generate` on your system terminal at the root of the project
+4. run `composer install` on your system terminal at the root of the project (requires php and composer installed)
+### Run Automated Tests
+run `php artisan test`, to see all the tests availables for the project
 #### In the description below you can find the location for the main files where the logic for each task is included:
 1. Algorithm exercise - Factorial:
   - app\Http\Services\FactorialService.php
